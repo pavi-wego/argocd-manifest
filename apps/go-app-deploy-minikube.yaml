@@ -8,7 +8,7 @@ spec:
     namespace: 'default'
   source:
     path: 'chart'
-    repoURL: 'https://github.com/pavi-wego/argocd-manifest.git
+    repoURL: 'https://github.com/pavi-wego/argocd-manifest'
     targetRevision: HEAD
     helm:
       valueFiles:
